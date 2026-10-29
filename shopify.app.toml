@@ -78,7 +78,9 @@ api_version = "2026-07"
   topics = [ "refunds/create" ]
 
 [auth]
-redirect_urls = [ ]
+redirect_urls = [
+  "https://vedant-coin-reward-1.onrender.com/auth/callback"
+]
 
 [payment_customization.metafields.app.payment-customization-function-configuration]
 type = "json"
